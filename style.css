@@ -51,7 +51,7 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -226,6 +226,10 @@ td, th {
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens::before {
+    content: "✯ ";
 }
 
 .imagem-beneficios {
