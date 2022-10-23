@@ -162,6 +162,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 1px burlywood;
 }
 
 .principal {
@@ -234,6 +235,13 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 14px black;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.6;
 }
 
 .video {
