@@ -38,7 +38,7 @@ nav a:hover {
 }
 
 .produtos {
-    width: 940px;
+    width: 950px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -141,13 +141,25 @@ form label, form legend {
     transform: scale(1.1);
 }
 
+.fset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.selecionar {
+    padding: 5px;
+    font-size: 18px;
+}
+
 table {
     width: auto;
     margin: 90px auto 20px;
+    border-collapse: collapse;
+    border-style: groove;
 }
 
 thead {
-    background: #555555;
+    background: #641a1a;
     color: white;
     font-weight: bold;
 }
